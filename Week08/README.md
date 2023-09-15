@@ -1,8 +1,10 @@
 # If you want to run on Colab
 If you want to use this notebook on google Colab, put this cell on the top and run it first
 ```
-! git clone https://github.com/tinsirius/ECE4078_Practicals_2022 >> /dev/null 2>&1  
-! python3 -m pip install gym==0.26.0 otter-grader==3.3.0 Box2D pygame >> /dev/null 2>&1  
+! git clone https://github.com/tinsirius/Week08 >> /dev/null 2>&1
+! apt install swig >> /dev/null 2>&1 
+! pip install gym==0.26.0 otter-grader==3.3.0 pygame Box2D swig >> /dev/null 2>&1 
+! pip install box2d-kengz >> /dev/null 2>&1 
 ```
 
 Then move the Support folder for Week08 out accordingly. 
